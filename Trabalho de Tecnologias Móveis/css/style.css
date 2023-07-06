@@ -1,0 +1,93 @@
+.menutm, .menutm ul {
+    background-color: #0077b6;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-item {
+    flex: 1;
+  }
+
+  .larger-div {
+    flex: 4;
+  }
+  
+  .smaller-div {
+    flex: 1;
+  }
+
+  .w100 {
+    width: 100%;
+  }
+
+  
+.work-feature-block {
+    padding: 10px 0;
+  }
+  
+  .work-feature-block-image {
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+  }
+
+footer {
+    padding: 15px;
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+
+}
+
+.socel {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .sopc {
+    display: none;
+  }
+
+  .socel {
+    display: block;
+  }
+  .menu1 {
+    width: 60%;
+    float: left;
+
+  }
+  .menu2 {
+    width: 40%;
+    float: right;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .menu-text {
+    font-size: 12px;
+  }
+
+  h3 small {
+    font-size: 10px;
+  }
+}
+  
+  
+  
+  
+  
+  
+  
